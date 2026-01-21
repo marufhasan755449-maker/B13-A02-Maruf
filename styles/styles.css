@@ -212,3 +212,144 @@ main {
   font-size: 18px;
   display: none;
 }
+.section.cc-hero {
+  background-image: url(../assets/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 74px);
+}
+.container.cc-hero {
+  max-width: 550px;
+  text-align: center;
+  margin: 0px auto;
+}
+.hero-circle {
+  width: 350px;
+  height: 350px;
+  background-image: url(../assets/hero-circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-circle a {
+  background-color: #00ff88;
+  color: #000;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  right: 35px;
+}
+.hero-title {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.hero-text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+/* hero css end  */
+/* about css start  */
+.counter {
+  font-size: 48px;
+}
+.counter-title {
+  text-transform: uppercase;
+}
+.card img {
+  padding-bottom: 10px;
+}
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* about css end  */
+.host-social {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.host-social a {
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+}
+.host-social a:hover {
+  border-color: #00ff88;
+}
+.host-social a img {
+  width: 100%;
+}
+/* footer css start  */
+footer {
+  background-image: url(../assets/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+.footer-brand a {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-brand a span {
+  background: linear-gradient(360deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-social {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.footer-social a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ccc;
+}
+.footer-social a span {
+  margin-left: 10px;
+}
+/* footer css end */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-circle {
+  animation: fadeIn 3s ease-in-out;
+}
+
