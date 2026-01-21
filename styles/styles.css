@@ -352,4 +352,60 @@ footer {
 .hero-circle {
   animation: fadeIn 3s ease-in-out;
 }
+@media screen and (max-width: 576px) {
+  .nav-brand a {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .navbar {
+    padding: 10px 0px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-button {
+    display: none;
+  }
+  .menu-bars {
+    display: flex;
+  }
+  .section {
+    padding: 40px 0px;
+  }
+  .flex-space-between {
+    row-gap: 20px;
+  }
+  .flex-left-center {
+    row-gap: 20px;
+  }
+  .flex-center-center {
+    row-gap: 20px;
+  }
+  .flex-right-center {
+    row-gap: 20px;
+  }
+  .section.cc-hero {
+    background-size: cover;
+    min-height: auto;
+  }
+  .hero-circle {
+    width: 220px;
+    height: 220px;
+  }
+  .hero-circle a {
+    top: 10px;
+    right: 10px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.625;
+}
 
+}
