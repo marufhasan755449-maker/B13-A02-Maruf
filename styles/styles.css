@@ -407,5 +407,50 @@ footer {
     font-weight: bold;
     line-height: 1.625;
 }
-
+ .button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .width-1-2 {
+    width: 100%;
+  }
+  .width-1-4.cc-mobile {
+    width: 48%;
+  }
+  .width-1-4.cc-mobile-full {
+    width: 100%;
+  }
+  .counter {
+    font-size: 36px;
+  }
+  .width-1-3.cc-mobile {
+    width: 100%;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+  .width-2-3.cc-mobile {
+    width: 100%;
+  }
+  .card {
+    padding: 25px;
+  }
+  .width-3-4.cc-mobile {
+    width: 100%;
+  }
+  .text-center-mobile {
+    text-align: center;
+  }
+  .host-social {
+    justify-content: center;
+  }
+  .footer-brand a {
+    font-size: 32px;
+  }
+  .footer-social {
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+  }
 }
+
