@@ -340,17 +340,23 @@ footer {
   margin-left: 10px;
 }
 /* footer css end */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+@keyframes friend {
+  0%{
+    color: red;
   }
-  to {
-    opacity: 1;
+  25%{
+    color: blue;
+  }
+  50%{
+    color: greenyellow;
+  }
+  100%{
+    color: green;
   }
 }
 
-.hero-circle {
-  animation: fadeIn 3s ease-in-out;
+.hero-title{
+  animation: friend 2s ease-in-out infinite alternate;
 }
 @media screen and (max-width: 576px) {
   .nav-brand a {
